@@ -1,0 +1,42 @@
+{
+  "invoice": {
+    "number": "INV-2024-0042",
+    "issue_date": "2025-03-17",
+    "due_date": "2025-04-16"
+  },
+  "company": {
+    "name": "ACME CORPORATION",
+    "address": "123 Business Avenue",
+    "city": "Silicon Valley",
+    "state": "CA",
+    "zip_code": "94025",
+    "email": "accounts@acmecorp.com"
+  },
+  "bill_to": {
+    "address": "789 Market Street, Suite 500",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip_code": "90015"
+  },
+  "items": [
+    {
+      "description": "Enterprise Software License",
+      "quantity": 1,
+      "unit_price": "$5,000.00",
+      "amount": "$5,000.00"
+    },
+    {
+      "description": "Implementation Services",
+      "quantity": 40,
+      "unit_price": "$150.00",
+      "amount": "$6,000.00"
+    },
+    {
+      "description": "Premium Support Plan (Annual)",
+      "quantity": 1,
+      "unit_price": "$2,500.00",
+      "amount": "$2,500.00"
+    }
+  ],
+  "total": "$13,500.00"
+}
